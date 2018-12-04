@@ -1,0 +1,52 @@
+{
+    "Domain_info": {
+        "Index": 0,
+        "Updated Date":"2018-09-21T09:21:06Z",
+        "Creation Date":"2018-09-21T09:21:06Z",
+        "Admin Name":"David",
+        "Admin Email":"test@example.io",
+        "Admin Phone":"+886 999999999"
+    },
+    "AnswerSection": [
+        {
+            "Name": "a.rclab",
+            "TTL": 666,
+            "Type": "A",
+            "Address": "19.97.6.25"
+        },
+        {
+            "Name": "aaaa.rclab",
+            "TTL": 666,
+            "Type": "AAAA",
+            "Address": "1997::0625"
+        },
+
+        {
+            "Name": "cname.rclab",
+            "TTL": 666,
+            "Type": "CNAME",
+            "Address": "a.rclab"
+        },
+        {
+            "Name": "ns.rclab",
+            "TTL": 666,
+            "Type": "NS",
+            "Address": "aaaa.rclab"
+        },
+        {
+            "Name": "mx.rclab",
+            "TTL": 666,
+            "Type": "MX",
+            "Address": "mail.rclab"
+        },
+        {
+            "Name": "txt.rclab",
+            "TTL": 666,
+            "Type": "TXT",
+            "Address": "FuYuan DNS Successful!"
+        }
+
+
+    ],
+    "ReturnCode": "NOERROR"
+}
